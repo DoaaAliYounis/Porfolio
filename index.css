@@ -1,0 +1,402 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding-top: 3%;
+    background-color: rgb(37,32,51);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.links{
+    width: 50%;
+}
+nav .links ul{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 0;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(0, 255, 255, 0.788);
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255,0.7);
+}
+.btn button{
+    border: 2px solid rgba(0, 255, 255, 0.788);
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    
+}
+.btn button a{
+    color: white;
+    text-decoration: none;
+}
+.btn button:hover{
+    border-color: rgb(255, 255, 255,0.7);
+}
+.head-cover-cards{
+    padding-top: 3%;
+}
+.head-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover{
+    height: 80vh;
+}
+.head-cards .head-image{
+   position: relative;
+}
+.head-cards .head-image img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius:60% 60% 0% 0%;
+    display: flex;
+    left:100px;
+}
+.cover-right{
+    width: 100%;
+}
+.head-talk{
+    width: 100%;
+    top: 3% !important;
+    left: 20%;
+    
+}
+.head-talk .small{
+    font-size: 30px;
+    color: rgba(0, 255, 255, 0.788);
+}
+.head-talk h1{
+    font-size: 80px;
+}
+.head-cards .cover-right .head-talk .Job-title{
+    font-size: 25px;
+    color: white !important;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.head-talk span{
+    font-size:35px;
+    color: rgba(0, 255, 255, 0.788);
+    width: 30%;
+}
+.head-talk button{
+    padding: 15px 23px;
+    background-color: rgba(0, 255, 255, 0.788);
+    border-radius: 30px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.head-talk button:hover{
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.head-cards .cover-left{
+    position: relative;
+}
+.head-cards .cover-left .buttoms{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+i{
+    font-size: 20px;
+    color: white;
+}
+.head-cards .cover-left .buttoms button{
+    border: 1px solid rgba(0, 255, 255, 0.788);
+    padding: 10px 15px;
+    border-radius: 15px 15px;
+    transition: 0.3s;
+}
+.head-cards .cover-left .buttoms button:hover{
+    color:rgba(0, 255, 255, 0.788) ;
+    background-color: rgba(0, 0, 0, 0.418);
+    
+}
+
+.About{
+    padding: 3% 0%;
+    background-color: rgb(243,246,255);
+}
+.About-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.About-cards .carded{
+    width: 50%;
+    
+}
+.card-photo{
+    height: 80%;
+}
+.About-cards .card-photo img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 30px;
+
+}
+.carded-talk{
+    padding-left: 20px;
+    padding-top: 5%;
+}
+.carded-talk .carded-small{
+    color:  rgba(78, 212, 212, 0.842);
+    font-size: 20px;
+}
+.carded-talk h2{
+    font-size: 37px;
+
+}
+.carded-talk .contain{
+    font-size: 13px;
+    padding-top: 15px;
+}
+.semi{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    line-height: 25px;
+}
+.semi .bold{
+    font-size: 15px;
+    font-weight: 600;
+}
+.semi .regular{
+    font-size: 14px;
+}
+
+.Works{
+    padding: 7% 0%;
+    background-color: rgb(37,38,47);
+}
+.Works .works-words{
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+}
+.Works .Projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+} 
+.Works .Projects .semi-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+.Works .Projects .semi-project .card img{
+    display: flex;
+    position: relative;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.562);
+    position: absolute;
+    inset: 0;
+    
+}
+.Works .works-words p{
+    color: rgba(0, 255, 255, 0.788);
+}
+.Works .works-words h2{
+    font-size: 40px;
+}
+/* .Experience{
+    padding: 10% 0%;
+    color: white;
+}
+.Experience .exp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+} */
+.Service{
+    padding-top: 15%;
+    
+}
+.Projects{
+    padding-top: 5%;
+
+}
+.Service .Projects .semi-project .card{
+    background-color: rgb(255, 255, 255,0.7);
+    height: 30vh;
+}
+.Service .Projects .semi-project .card p{
+    font-size: 15px;
+}
+.Service .Projects .card img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Experience{
+    padding: 15% 0%;
+    color: white;
+}
+.Experience .Exper-head-Title{
+    text-align: center;
+    padding-bottom: 15%;
+}
+.Experience .Exper-head-Title h2{
+    font-size: 40px;
+}
+.Experience .Experience-part{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.Experience .Experience-card{
+    width: 50%;
+    height: 90vh;
+} 
+.Experience .Experience-photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.Experience .Experience-paragraph .Interships{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Experience .Experience-paragraph h2{
+    padding-bottom: 20px;
+}
+.Experience .Experience-paragraph h3{ 
+    font-size: 20px;
+    color: rgba(78, 212, 212, 0.842);
+}
+.Experience .intern-Type{
+    padding-top: 10px;
+}
+.Experience .intern-Type .InternTypes-spans{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Experience .intern-Type .InternTypes-spans .Uniqu{
+    background-color: rgba(0, 255, 255, 0.788);
+    padding: 5px 13px;
+    border-radius: 30px;
+    color: black;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.Experience .intern-Type .InternTypes-spans .Uniqu:hover{
+    background-color: rgb(37,38,47);
+    color: white;
+}
+.Education{
+    padding: 10% 0%;
+    color: white;
+}
+.Education .Education-Title{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.Education .Education-Flexo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.Contact-Me{
+    color: white;
+    padding: 7% 0%;
+}
+.Contact-Me .Contact-Title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.Contact-Me .Contact-Title h2{
+    font-size: 40px;
+    
+}
+.Contact-Me .ContactPart{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 65px;
+}
+.Contact-Me .ContactPart .cards{
+    width: 50%;
+    height: 100%;
+}
+.Contact-Me .ContactPart .ContactForm{
+    width: 100%;
+}
+.Contact-Me .ContactPart .ContactForm .Contact-Names label{
+    font-size: 15px;
+    padding-bottom: 15px;
+    color: rgba(255, 255, 255, 0.795);
+}
+.Contact-Me .ContactPart .ContactForm .Contact-Names  input{
+    width: 90%;
+    border-radius: 30px;
+    border: none;
+}
+.Contact-Me .ContactPart .ContactForm .Contact-Names  textarea{
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    height: 30vh;
+}
+.Contact-Me .ContactPart .ContactForm .Contact-Names button{
+   background-color: rgba(78, 212, 212, 0.842);
+   margin-top: 30px;
+   font-size: 15px;
+   padding: 15px 20px;
+   border-radius: 30px;
+   transition: 0.3s;
+} 
+.Contact-Me .ContactPart .ContactForm .Contact-Names button:hover{
+    background-color: rgb(37,38,47);
+
+}
+footer{
+    background-color: rgb(63, 57, 80);
+    color: white;
+    padding: 2% 0%;
+    
+}
+footer .footWord{
+        text-align: center;
+}
+footer .footWord p{
+    margin: 0px;
+    font-size: 13px;
+}

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth md:scroll-auto focus:scroll-auto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="links">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Works">Works</a></li>
+            <li><a href="#service">Service</a></li>
+          </ul>
+        </div>
+        <div class="btn">
+          <button>
+            <a href="./image/DoaaAli-CV-20241016.pdf">Download CV</a>
+          </button>
+        </div>
+      </nav>
+      <div class="container-fluid head-cover-cards">
+        <div class="row">
+            <div class="head-cards">
+                <div class="cover cover-right col-lg-4 col-md-4 position-relative">
+                  <div class="head-talk position-absolute">
+                    <p class="small">Hello I'm</p>
+                    <h1>
+                      Doaa <br />
+                      Ali
+                    </h1>
+                    <p class="Job-title">A Junior <span> WEB DEVELOPER</span></p>
+                    <button class="cover-btn">SAY HELLO</button>
+                  </div>
+                </div>
+                <div class="cover head-image col-lg-6 col-md-6 ">
+                  <img src="./image/headPhoto.svg" alt="" />
+                </div>
+        
+                <div class="cover cover-left col-lg-2 col-md-2 ">
+                    <div class="buttoms">
+                        <button><i class="fa-regular fa-envelope"></i></button>
+                        <button><i class="fa-solid fa-phone"></i></i></button>
+                        <button><i class="fa-brands fa-linkedin-in"></i></button>
+                      
+                    
+                    </div>
+                    </div>
+              </div>
+        </div>
+      </div>
+      
+    </header>
+<main>
+<div class="About" id="About">
+    <div class="container">
+        <div class="row">
+            <div class="About-cards">
+                <div class="carded card-photo">
+                    <img src="./image/about.jpg" alt="">
+                
+                </div>
+                <div class="carded carded-talk">
+                  <p class="carded-small">ABOUT ME</p>
+                  <h2>I Create And Develop Pages</h2>
+                  <p class="contain">A Junior Front end developer, Utilized HTML, CSS, and JavaScript and modern frameworks like React.js and Angular to
+                    create visually appealing and responsive web pages that met client requirements. Worked closely with UX/UI designers
+                    to translate their designs into functional web applications. Produced websites compatible with multiple browsers.</p>
+                  <br>
+                  <hr>
+                  <br>
+                  <div class="semi">
+                    <div class="semi-cards bold">
+                      <ul>
+                        <li>Name</li>
+                        <li>Age</li>
+                        <li>Occupation</li>
+                      
+                      </ul>
+                    </div>
+                    <div class="semi-cards regular">
+                      <ul>
+                        <li>Doaa Ali</li>
+                        <li>21 Years</li>
+                        <li>Front-end Developer</li>
+                      </ul>
+                    </div>
+                    <div class="semi-cards bold">
+                      <ul>
+                        <li>Phone</li>
+                        <li>Email</li>
+                        <li>Nationality</li>
+                      </ul>
+                    </div>
+                    <div class="semi-cards regular">
+                      <ul>
+                        <li>+201009389654</li>
+                        <li>hanaahamdy840@gmail.com</li>
+                        <li>Egyption</li>
+                      </ul>
+                    
+                    </div>
+                  
+                  </div>
+                  <br>
+                  <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="Works" id="Works">
+  <div class="works-words">
+    <p>Portfolio</p>
+    <h2>My Recent Works</h2>
+  </div>
+  <div class="container">
+  <div class="row">
+      <div class="Projects">
+          <div class="semi-project">
+            <div class="card text-bg-dark">
+              <img src="./image/project1.png" class="card-img" alt="...">
+                <div class="overlay"></div>
+              <div class="card-img-overlay">
+                <h5 class="card-title">KINFLOK</h5>
+                <p class="card-text">This is A Blog page that show how to add Books and Delete as WorkShop or place to Exchange Books with people that love it .</p>
+              </div>
+            </div>
+            <div class="card text-bg-dark">
+              <img src="./image/project2.png" class="card-img" alt="...">
+              <div class="overlay"></div>
+                <div class="card-img-overlay">
+                <h5 class="card-title" onclick="handlerTwo()"> Sea Food Resturant</h5>
+                <p class="card-text">This is Page About Sea Food Resturant that show the Menu and the Cheifs that work thier .</p>
+            
+              </div>
+          
+          </div>
+        </div>
+        <div class="semi-project">
+          <div class="card text-bg-dark">
+            <img onclick="handlerThree()" src="./image/project3-part2.png" class="card-img" alt="...">
+            <div class="overlay"></div>
+            <div class="card-img-overlay">
+              <h5 class="card-title" onclick="handlerThree()">Movie Page</h5>
+              <p class="card-text">This is Movie page that Shows Movies that Exposed Know .</p>
+            </div>
+          </div>
+          <div class="card text-bg-dark">
+            <img onclick="handlerFour()" src="./image/project5.png" class="card-img" alt="...">
+            <div class="overlay"></div>
+            <div class="card-img-overlay">
+              <h5 class="card-title" onclick="handlerFour()">Personal Page</h5>
+              <p class="card-text">Personal Page that We work on ot in the NTI interShip that appear my Web Desgin Skills .</p>
+            </div>
+          </div>
+        
+        
+        
+        </div>
+      
+      
+</div>
+
+
+
+<div class="Service" id="service">
+  <div class="works-words">
+    <p>Service</p>
+    <h2>What I offer</h2>
+  </div>
+  
+  
+  
+  <div class="Projects">
+      <div class="semi-project">
+        <div class="card mb-3" style="width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 position-relative">
+              <img src="./image/ser-icon1.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">create functional, user-friendly websites and web applications. They may write code, develop and test new applications, or monitor site performance and traffic.</p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 position-relative">
+              <img src="./image/ser-icon2.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Software Development</h5>
+                <p class="card-text"> create efficient, reliable, and easy-to-use software. The process of software development typically begins with the requirements-gathering phase.</p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      
+      </div>
+      <div class="semi-project">
+        <div class="card mb-3" style="width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 position-relative">
+              <img src="./image/ser-icon3.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">UI/UX Design</h5>
+                <p class="card-text"> experience. They both want users to find interacting with a product or service to be easy, efficient, and enjoyable.</p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 position-relative">
+              <img src="./image/ser-icon4.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">WEB Design</h5>
+                <p class="card-text">specialise in creating new websites' structures and the code that forms these, web designers tend to focus on the visual aspects of a site, such as its layout and its usability.</p>
+               
+            </div>
+          </div>
+        </div>
+      
+      
+      
+      </div>
+  
+  
+  
+  </div>
+
+
+</div>
+
+<section class="Experience">
+  
+    <div class="Experience-part">
+      <div class="Experience-card Experience-photo">
+        <img src="./image/Experenice.jpg" alt="">
+      </div>
+      <div class="Experience-card Experience-paragraph">
+        <h2>Work Experience</h2>
+        <div class="Interships">
+          <div class="Exper-intern">
+            <div class="intern-Title">
+              <h3>(Full stack Node.js) Depi-Digital Egypt Pioneers Initiative  </h3>
+            </div>
+            <div class="intern-Type">
+              <div class="InternTypes-spans">
+                <div class="spans">
+                  <span>present</span>
+                </div>
+                <div class="spans Uniqu">
+                  <span>Intership</span>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="Exper-intern">
+            <div class="intern-Title">
+              <h3>(Web Design)-National Telecommunication Institute (NTI)</h3>
+              <!-- <span>2024/08 - present</span> -->
+            </div>
+            <div class="intern-Type">
+              <div class="InternTypes-spans">
+                <div class="spans">
+                  <span>2024/08 - present</span>
+                </div>
+                <div class="spans Uniqu">
+                  <span>Intership</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Exper-intern">
+            <div class="intern-Title">
+              <h3>(MEAN stack) Information Technology Institute (ITI)</h3>
+              <!-- <span>2024/08 - 2024/08</span> -->
+            </div>
+            <div class="intern-Type">
+              <div class="InternTypes-spans">
+                <div class="spans">
+                  <span>2024/08 - 2024/08</span>
+                </div>
+                <div class="spans Uniqu">
+                  <span>Intership</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Exper-intern">
+            <div class="intern-Title">
+            <h3>NeuronetiX company</h3>
+          </div>
+          <div class="intern-Type">
+            <div class="InternTypes-spans">
+              <div class="spans">
+                <span>2024/07 - 2024/09</span>
+              </div>
+              <div class="spans Uniqu">
+                <span >Intership</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+      </div>
+    </div>
+
+
+</section>
+
+<section class="Education">
+        <div class="Education-Title">
+          <h2>Education & Courses</h2>
+        </div>
+        <div class="Education-Uni Education-Flexo">
+            <div class="edu-Uni-Info edu-Uni-Card">
+              <h3>Batchelor in Coumputer Science</h3>
+              <span>6 October University</span>
+            </div>
+            <div class="edu-Uni-Time edu-Uni-Card">
+              <span>2022 - Present</span>
+            </div>
+        </div>
+        <div class="Education-Diploma Education-Flexo">
+          <div class="edu-Diploma-Info edu-Diploma-Card">
+            <h3>FrontEnd Develoment Diploma</h3>
+            <span>MEC  Academy</span>
+          </div>
+          <div class="edu-Diploma-Time edu-Diploma-Card">
+            <span>2023/10 - 2024/05</span>
+          </div>
+        </div>
+</section>
+
+<section class="Contact-Me">
+    <div class="Contact-Title">
+      <h2>Contact Me</h2>
+    </div>
+    <div class="ContactPart">
+        <div class="ContactForm cards">
+            <div class="Contact-Names">
+              <div class="conatctFirst Contact-Names-Cards">
+                <label for="First">First Name</label>
+                <br>
+                <input type="text" id="First">
+                <hr>
+              </div>
+              <div class="ContactLast Contact-Names-Cards">
+                <label for="last">Last Name</label>
+                <br>
+                <input type="text" id="last">
+                <hr>
+              </div>
+              <div class="Contact-text">
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email">
+              </div>
+              <hr>
+              <label for="message">Message</label>
+                <br>
+                <textarea id="message"></textarea>
+                <hr>
+                 <button>SEND MESSAGE</button>
+              </div>
+              
+             
+            </div>
+        <div class="ContactInfo cards">
+            <h3>Contact Info</h3>
+            <p><i class="fa-solid fa-phone"></i> +201009389654</p>
+            <p><i class="fa-regular fa-envelope"></i> hanaahamdy840@gmail.com</p>
+        </div>
+    </div>
+
+</section>
+</main>
+<footer>
+  <div class="footWord">
+    <p>Copyright &copy; 2024 All rights Reserved | this Temple is made By Doaa Ali</p>
+  </div>
+</footer>
+
+
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

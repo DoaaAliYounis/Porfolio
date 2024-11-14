@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    padding: 15px 0px;
+}
+.log-img{
+    width: 40%;
+    
+}
+.links ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.438);
+    font-weight: 600;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    opacity: 0.7;
+}
+.links ul li a:hover{
+    color: rgba(0, 0, 0, 0.795);
+}
+.color{
+    background-color:rgb(255,122,87) ;
+    padding: 15px 20px;
+    border-radius: 30px;
+    color:white;
+     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+     opacity: 0.7;
+}
+.color:hover{
+   opacity: 1;
+}
+.Home{
+    position: relative;
+}
+.Home-img{
+    width: 100%;
+    height: 110vh;
+   position: relative;
+}
+.main-header{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.main-header .main-title{
+    font-size: 40px;
+    padding: 10px 0px;
+    color: rgba(255, 255, 255, 0.856);
+}
+.main-header h1{
+    font-size: 100px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding:20px 0px;
+    
+}
+.btn .btn-col{
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 800;
+}
+.btn .orange{
+    background-color:rgb(255,122,87) ;
+    color: white;
+    opacity: 0.9;
+}
+.btn .orange:hover{
+    opacity: 1;
+}
+.btn .white{
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    opacity: 0.9;
+}
+.btn .white:hover{
+    opacity: 1;
+}
+.ICON{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+.ICON .ICON-HOME{
+    padding: 15px 20px;
+    border: none;
+    background-color: white;
+    color: rgb(255,122,87);
+    border-radius: 50px;
+    font-size: 20px;
+    transition: 0.3s;
+
+}
+.ICON .ICON-HOME:hover{
+    background-color: rgb(255,122,87);
+    color: white;
+}
+.projects{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80px;
+    border: 3px solid rgba(255, 255, 255, 0.541);
+    padding: 50px 70px ;
+    border-radius: 70px;
+    bottom: -80px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    right: 5%;
+    z-index: 1;
+}
+.my{
+    padding: 10% 0%;
+    background-color: rgb(0, 0, 0);
+    margin: -5px 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.my-col{
+   height: 80vh;
+}
+.my-photo{
+    width:30%;
+    
+}
+.my-photo .my-photos{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.my-career{
+    width: 60%;
+    position: relative;
+    
+}
+.my-career .my-career-talk{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.my-career .my-career-talk h2{
+    font-size: 70px;
+    padding: 15px 0px;
+}
+.my-career .my-career-talk .career{
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 23px;
+    padding-bottom: 15px;
+}
+.my-career .my-career-talk .story{
+    font-size: 17px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.925);
+    padding-bottom: 20px;
+}
+.my-career .my-career-talk button{
+    padding: 15px 20px;
+    background-color: rgb(255,122,87);
+    border-radius: 30px;
+    color: white;
+    opacity: 0.95;
+}
+.my-career .my-career-talk button:hover{
+    opacity: 1;
+}
+.service{
+    padding: 10% 0%;
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+}
+.ser-talk{
+    padding-bottom: 50px;
+    width: 80%;
+    margin: auto;
+}
+.ser-talk .first{
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.836);
+    padding-bottom: 15px;
+}
+.ser-talk h3{
+    font-size: 65px;
+    padding-bottom: 10px;
+}
+.ser-talk .second{
+    color: rgba(255, 255, 255, 0.719);
+}
+.ser-hov{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 25px ;
+}
+.hov-col{
+    font-size: 27px;
+    width: 30%;
+    padding: 60px ;
+    background-color: rgb(255,122,87);
+    border-radius: 30px;
+    transition:0.3s;
+}
+.hov-col p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.hov-col:hover{
+    background-color: white;
+    color: rgb(255,122,87);
+}
+.skills{
+    padding: 10% 0%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.skills-talk{
+    padding-bottom: 50px;
+    width: 80%;
+    margin: auto;
+}
+.skills-talk .first{
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.836);
+    padding-bottom: 15px;
+}
+.skills-talk h3{
+    font-size: 65px;
+    padding-bottom: 10px;
+}
+.skills-talk .second{
+    color: rgba(255, 255, 255, 0.719);
+}
+.skills-group{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    
+}
+.skills-col{
+    width: 50%;
+   
+}
+.skill-row{
+    padding-bottom:70px;
+
+}
+.skill-row h3{
+    padding-bottom: 20px;
+}
+.skill-row .dev-line{
+    background-color: rgba(255, 255, 255, 0.849);
+    width: 100%;
+    height: 1vh;
+    border-radius: 30px;
+    position: relative;
+}
+.skill-row .dev-line .line{
+    position: absolute;
+    width: 89%;
+    background-color: rgb(255,122,87);
+    height: 1vh;
+    border-radius: 30px 0px 0px 30px;
+
+}
+.skill-row .dev-line .line2{
+    width: 65%;
+}
+.skill-row .dev-line .line3{
+    width: 95%;
+}
+.skill-row .dev-line .line4{
+    width: 80%;
+}
+.Portfolio{
+    padding: 10% 0%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.Port-talk{
+    padding-bottom: 50px;
+    width: 80%;
+    margin: auto;
+}
+.Port-talk .first{
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.836);
+    padding-bottom: 15px;
+}
+.Port-talk h3{
+    font-size: 65px;
+    padding-bottom: 10px;
+}
+.Port-talk .second{
+    color: rgba(255, 255, 255, 0.719);
+}
+.port-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    padding-top: 50px;
+    
+}
+.port-group .port-col{
+    width: 40%;
+    height: 100%;
+    flex-wrap: wrap;
+
+}
+.port-group .port-col .port-row{
+    width: 100%;
+    position: relative;
+    
+}
+.port-group .port-col .port-row img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 99%;
+    background-color: rgba(255, 121, 87, 0.644);
+    inset: 0;
+    border-radius: 30px;
+    opacity: 0;
+    transition: 0.3s;
+   
+}
+.port-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: 0.3s;
+}
+.port-title h3{
+    padding-bottom: 20px;
+}
+.port-title button{
+    padding: 15px 20px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+    background-color: rgba(255, 121, 87, 0.418);
+    border: 2px solid white;
+    transition: 0.3s;
+
+}
+.port-row:hover .overlay{
+    opacity: 1;
+    z-index: 1;
+}
+.port-row:hover .port-title{
+    opacity: 1;
+    z-index: 99;
+    
+}
+.port-title button:hover{
+    background-color: white;
+    color: rgb(255,122,87);
+}
